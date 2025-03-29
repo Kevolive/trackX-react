@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const MenuLateral = () => {
   return (
     <aside className="aplicacion__menu-lateral">
@@ -8,7 +10,7 @@ const MenuLateral = () => {
         <a className="aplicacion__menu-lateral-navegacion-item" href="">Inicio</a>
         <a className="aplicacion__menu-lateral-navegacion-item" href="">Gestión de envíos</a>
         <a className="aplicacion__menu-lateral-navegacion-item" href="">Gestión de clientes</a>
-        <button type='button' className="aplicacion__menu-lateral-navegacion-item">Cerrar sesión</button>
+        <Link to='/' type='button' className="aplicacion__menu-lateral-navegacion-item">Cerrar sesión</Link>
       </nav>
     </aside>
   )

@@ -1,14 +1,17 @@
 import Home from '../Home'
 import Login from '../pages/Login'
-let routes =[
+
+
+export let enrutador = [
     {
-        path:'/login',
-        element: <Login/>
+        path: '/',
+        element: <Login />
     },
     {
-        path:'/home',
-        element: <Home/>
+        path: '/home',
+        element: <Home />
     },
    
+
 
 ]
